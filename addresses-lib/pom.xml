@@ -5,7 +5,7 @@
 
 	<groupId>ca.vanier</groupId>
 	<artifactId>addresses-lib</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.11-SNAPSHOT</version>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
@@ -17,6 +17,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>3.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.9.2</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

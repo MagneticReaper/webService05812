@@ -41,12 +41,21 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+		 <dependency>
 			<groupId>ca.vanier</groupId>
 			<artifactId>addresses-lib</artifactId>
+			<version>0.0.10-SNAPSHOT</version>
+		 </dependency>
+		 <dependency>
+			<groupId>ca.vanier</groupId>
+			<artifactId>nameit-lib</artifactId>
 			<version>0.0.2-SNAPSHOT</version>
-		</dependency>
+		 </dependency>
 	</dependencies>
 
 	<build>
